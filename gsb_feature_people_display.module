@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the GSB Feature People Display feature.
+ */
+
+include_once 'gsb_feature_people_display.features.inc';

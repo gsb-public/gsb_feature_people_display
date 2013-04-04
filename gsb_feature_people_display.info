@@ -1,0 +1,13 @@
+name = GSB Feature People Display
+description = Provides displays of people
+core = 7.x
+package = GSB
+version = 7.x-1.0
+project = gsb_feature_people_display
+dependencies[] = entityreference
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[views_view][] = gsb_people_autocomplete
+features_exclude[dependencies][ctools] = ctools
+project path = profiles/gsb_public/modules/custom/features
